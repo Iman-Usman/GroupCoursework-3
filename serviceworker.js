@@ -4,7 +4,8 @@ var cacheFiles = [
     'products.js',
     'afterschool.webmanifest',
     'images/math.jpg',
-    'images/icon-512.png'  
+    'images/icon-512.png',
+    'images/icon-192.png'
 ];
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');  
